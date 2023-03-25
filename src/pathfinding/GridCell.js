@@ -22,7 +22,7 @@ export default class GridCell extends Component
             isFinishCell?'gridcell-finish':
             isWallCell?'gridcell-wall':
             'gridcell';
-
+        
         return(
             <div id={`${row}_${column}`} className={`${cellTag}`} onMouseDown={()=>mouseDownEvent(row, column)} onMouseEnter={()=>mouseEnterEvent(row, column)} onMouseUp={()=>mouseUpEvent()}>
             </div>

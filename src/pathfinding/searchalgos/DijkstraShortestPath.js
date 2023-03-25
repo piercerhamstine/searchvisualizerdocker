@@ -1,4 +1,7 @@
 
+// Later Improvements:
+// Use min-heap
+
 export function Dijkstras(graph)
 {
     const unvisited = [];
