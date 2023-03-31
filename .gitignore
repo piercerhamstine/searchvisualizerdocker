@@ -1,3 +1,5 @@
+.gitignore
+
 #VSCODE
 .vscode/*
 .vscode/settings.json
